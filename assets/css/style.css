@@ -539,14 +539,14 @@ section {
 .architecture #portfolio-flters li:last-child {
   margin-right: 0;
 }
-.architecture .portfolio-wrap {
+.architecture .architecture-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
 }
-.architecture .portfolio-wrap::before {
+.architecture .architecture-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
@@ -558,7 +558,7 @@ section {
   z-index: 2;
   opacity: 0;
 }
-.architecture .portfolio-wrap .portfolio-info {
+.architecture .architecture-wrap .architecture-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -573,7 +573,7 @@ section {
   justify-content: center;
   align-items: center;
 }
-.architecture .portfolio-wrap .portfolio-info::before {
+.architecture .architecture-wrap .architecture-info::before {
   display: block;
   content: "";
   width: 48px;
@@ -586,7 +586,7 @@ section {
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
-.architecture .portfolio-wrap .portfolio-info::after {
+.architecture .architecture-wrap .architecture-info::after {
   display: block;
   content: "";
   width: 48px;
@@ -599,47 +599,47 @@ section {
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
-.architecture .portfolio-wrap .portfolio-info h4 {
+.architecture .architecture-wrap .architecture-info h4 {
   font-size: 20px;
   color: #45505b;
   font-weight: 600;
 }
-.architecture .portfolio-wrap .portfolio-info p {
+.architecture .architecture-wrap .architecture-info p {
   color: #45505b;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
 }
-.architecture .portfolio-wrap .portfolio-links {
+.architecture .architecture-wrap .architecture-links {
   text-align: center;
   z-index: 4;
 }
-.architecture .portfolio-wrap .portfolio-links a {
+.architecture .architecture-wrap .architecture-links a {
   color: #45505b;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
-.architecture .portfolio-wrap .portfolio-links a:hover {
+.architecture .architecture-wrap .architecture-links a:hover {
   color: #148af9;
 }
-.architecture .portfolio-wrap:hover::before {
+.architecture .architecture-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   opacity: 1;
 }
-.architecture .portfolio-wrap:hover .portfolio-info {
+.architecture .architecture-wrap:hover .architecture-info {
   opacity: 1;
 }
-.architecture .portfolio-wrap:hover .portfolio-info::before {
+.architecture .architecture-wrap:hover .architecture-info::before {
   top: 15px;
   left: 15px;
 }
-.architecture .portfolio-wrap:hover .portfolio-info::after {
+.architecture .architecture-wrap:hover .architecture-info::after {
   bottom: 15px;
   right: 15px;
 }
@@ -667,23 +667,23 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0563bb;
 }
-.portfolio-details .portfolio-info {
+.portfolio-details .architecture-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
 }
-.portfolio-details .portfolio-info h3 {
+.portfolio-details .architecture-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.portfolio-details .portfolio-info ul {
+.portfolio-details .architecture-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .architecture-info ul li + li {
   margin-top: 10px;
 }
 .portfolio-details .portfolio-description {

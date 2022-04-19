@@ -273,7 +273,7 @@ section {
     }
   }
 
-  .portfolio-wrap {
+  .architecture-wrap {
     transition: 0.3s;
     position: relative;
     overflow: hidden;
@@ -296,7 +296,7 @@ section {
     }
 
     
-    .portfolio-info {
+    .architecture-info {
       opacity: 0;
       position: absolute;
       top: 0;
@@ -355,7 +355,7 @@ section {
       
     }
 
-    .portfolio-links {
+    .architecture-links {
       text-align: center;
       z-index: 4;
 
@@ -382,7 +382,7 @@ section {
         opacity: 1;
       }
 
-      .portfolio-info {
+      .architecture-info {
         opacity: 1;
 
         &::before {
@@ -431,7 +431,7 @@ section {
 
   }
 
-  .portfolio-info {
+  .architecture-info {
     padding: 30px;
     box-shadow: 0px 0 30px rgba($secondary, 0.08);
 
